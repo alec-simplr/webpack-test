@@ -1,0 +1,23 @@
+{
+  "name": "react_typescript_webpack",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "alec-simplr",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.0.5",
+    "@types/webpack": "4.1.4",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.4.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
